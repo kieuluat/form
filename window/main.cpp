@@ -10,6 +10,7 @@ int main(int argc, char *argv[])
 
     printf(" running ...");
 
+    printf(" Init ...");
 
     QQmlApplicationEngine engine;
     const QUrl url(QStringLiteral("qrc:/main.qml"));
