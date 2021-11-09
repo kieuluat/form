@@ -11,7 +11,7 @@ int main(int argc, char *argv[])
     printf(" running ...");
 
     printf(" Init ...");
-
+//commit: Lưu lại trạng thái của index
     QQmlApplicationEngine engine;
     const QUrl url(QStringLiteral("qrc:/main.qml"));
     QObject::connect(&engine, &QQmlApplicationEngine::objectCreated,
