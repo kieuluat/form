@@ -12,6 +12,9 @@ int main(int argc, char *argv[])
 
     printf(" Init ...");
 //commit: Lưu lại trạng thái của index
+
+//pull: Lấy nội dung của remote repository
+
     QQmlApplicationEngine engine;
     const QUrl url(QStringLiteral("qrc:/main.qml"));
     QObject::connect(&engine, &QQmlApplicationEngine::objectCreated,
